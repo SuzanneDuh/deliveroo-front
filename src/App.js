@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Hp from "./components/Hp";
 import Category from "./components/Category";
-
+import logoSource from "./assets/logodeliveroo.jpeg";
 // import Header from "./components/Header";
 
 function App() {
@@ -61,7 +61,7 @@ function App() {
   ) : (
     // OK CA S'AFFICHE BIEN++
     <div>
-      <img src="./assets/logodeliveroo.jpeg" alt="" />
+      <img src={logoSource} alt="" />
       <Hp restaurant={data.restaurant} />
       <div className="articleetpanier">
         <div className="a">
@@ -71,7 +71,7 @@ function App() {
                 <Category
                   addCart={addCart}
                   className="b"
-                  keys={index}
+                  key={index}
                   category={category}
                 />
               )

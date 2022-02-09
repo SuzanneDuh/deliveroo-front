@@ -3,7 +3,7 @@ import "../App.css";
 const Category = ({ category, addCart }) => {
   return (
     <div className="c">
-      <h2 classeName="d">{category.name}</h2>
+      <h2 className="d">{category.name}</h2>
       <div className="e">
         {category.meals.map((meal, index) => {
           return (

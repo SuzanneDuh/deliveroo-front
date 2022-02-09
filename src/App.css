@@ -33,10 +33,10 @@ body {
   width: 300px;
 }
 
-.d {
-  background-color: red;
-  /* display: flex;
-  flex-direction: row; */
+.e {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .articleetpanier {
