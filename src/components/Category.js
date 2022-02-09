@@ -16,7 +16,7 @@ const Category = ({ category, addCart }) => {
               <h3>{meal.title}</h3>
               <p>{meal.description}</p>
               {meal.picture && (
-                <img className="mealpicture" src={meal.picture} />
+                <img className="mealpicture" src={meal.picture} alt="" />
               )}
               <span>{meal.price}</span>
               {meal.popular && <span>⭐️ Populaire</span>}
