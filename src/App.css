@@ -1,0 +1,61 @@
+body {
+  width: 1024px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(222, 218, 218);
+}
+
+.Hp {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.titledesc {
+  border: 10px black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.imgTitle {
+  height: 120px;
+  border-radius: 15px;
+}
+
+.mealpicture {
+  width: 200px;
+}
+
+.article {
+  background-color: white;
+  margin: 10px;
+  width: 300px;
+}
+
+.d {
+  background-color: red;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.articleetpanier {
+  display: flex;
+}
+
+.a {
+  flex: 1;
+}
+
+.panier {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  position: sticky;
+  top: 20px;
+}
+
+.e {
+  display: flex;
+  flex-wrap: wrap;
+}
